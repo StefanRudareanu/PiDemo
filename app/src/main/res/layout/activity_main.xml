@@ -41,19 +41,6 @@
         android:text="Sing In"
         android:textStyle="italic"></Button>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true">
 
-    </LinearLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/username1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="username">
-
-    </com.google.android.material.textfield.TextInputLayout>
 </RelativeLayout>
 
