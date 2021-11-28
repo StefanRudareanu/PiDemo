@@ -13,7 +13,7 @@ Button singup;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        singup=singup.findViewById(R.id.SingUp);
+        singup=(Button) findViewById(R.id.SingUp);
         singup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
