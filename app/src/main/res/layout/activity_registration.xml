@@ -52,9 +52,9 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="588dp"
         android:ems="10"
+        android:hint="username here"
         android:inputType="textEmailAddress"
-        android:minHeight="48dp"
-        android:hint="username here"/>
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"
@@ -66,9 +66,9 @@
         android:layout_marginEnd="18dp"
         android:layout_marginBottom="493dp"
         android:ems="10"
+        android:hint="password"
         android:inputType="textPassword"
-        android:minHeight="48dp"
-        android:hint="passwprd"/>
+        android:minHeight="48dp" />
 
     <Button
         android:id="@+id/button5"
@@ -100,9 +100,9 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="420dp"
         android:ems="10"
+        android:hint="confirm password"
         android:inputType="textPassword"
-        android:minHeight="48dp"
-        android:hint="confirm password"/>
+        android:minHeight="48dp" />
 
 
 </RelativeLayout>
