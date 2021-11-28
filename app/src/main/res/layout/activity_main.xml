@@ -5,17 +5,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomePage">
-<Button
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_centerInParent="true"
-    android:text="SingUp"
-    android:textStyle="italic"
-    android:id="@+id/SingUp">
 
+    <Button
+        android:id="@+id/SingUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
 
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="50dp"
+        android:text="Sing Up"
+        android:textStyle="italic"></Button>
+    <Button
+        android:id="@+id/SingIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
 
-</Button>
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="259dp"
+
+        android:text="Sing In"
+        android:textStyle="italic"></Button>
+
 
 
 </RelativeLayout>

@@ -2,6 +2,7 @@ package com.example.gittry;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -21,4 +22,13 @@ Button singup;
             }
         });
     }
+//    public void iniateSwitch(Activity A,Activity B,Button b){
+//        b.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                startActivity(new Intent(A.this,B.class));
+//            }
+//        });
+//
+//    }
 }
