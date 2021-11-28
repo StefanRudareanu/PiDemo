@@ -8,12 +8,12 @@
     android:background="@color/backgroundc">
 
     <ImageView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="-37dp"
-        android:layout_marginBottom="357dp"
-        android:src="@drawable/logo2" />
+        android:layout_marginTop="100dp"
+        android:src="@drawable/logo2">
+
+    </ImageView>
 
     <Button
         android:id="@+id/SingUp"
@@ -46,14 +46,14 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true">
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="username"
-            android:id="@+id/username1"
-            >
-
-        </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/username1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="username">
+
+    </com.google.android.material.textfield.TextInputLayout>
 </RelativeLayout>
 
