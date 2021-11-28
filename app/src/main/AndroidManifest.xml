@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GitTry">
         <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
