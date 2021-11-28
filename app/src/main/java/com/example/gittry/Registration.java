@@ -13,7 +13,7 @@ public class Registration extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
-        BACK=(Button) findViewById(R.id.button5);
+        BACK=(Button) findViewById(R.id.registerButtonBack);
         BACK.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
