@@ -3,9 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:id="@+id/rl">
     <com.google.android.material.tabs.TabLayout
-        android:id="@+id/Table"
+        android:id="@+id/tab_layout"
+        android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/roz"
@@ -13,9 +15,10 @@
 
     </com.google.android.material.tabs.TabLayout>
     <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/ViepagerAM"
+        android:id="@+id/pager2"
+        android:layout_marginBottom="50dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
     </androidx.viewpager2.widget.ViewPager2>
 </RelativeLayout>
