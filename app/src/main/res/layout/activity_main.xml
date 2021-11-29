@@ -11,16 +11,18 @@
         android:id="@+id/passwordsi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColorHint="@color/white"
+        android:textColorHint="@color/visiniuDeschis"
         app:errorEnabled="true"
-        app:passwordToggleEnabled="true">
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/visiniuDeschis">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/purple_900"
+            android:background="@color/crem"
             android:hint="Password"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:textColor="@color/visiniuInchis"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -29,7 +31,7 @@
         android:id="@+id/usernamesi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColorHint="@color/white"
+        android:textColorHint="@color/visiniuDeschis"
         app:counterEnabled="true"
         app:errorEnabled="true"
         android:layout_centerInParent="true">
@@ -37,9 +39,10 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/purple_900"
+            android:background="@color/crem"
             android:hint="Username"
             android:inputType="text"
+            android:textColor="@color/visiniuInchis"
             />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -48,7 +51,8 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="52dp"
         android:src="@drawable/logo2">
 
     </ImageView>

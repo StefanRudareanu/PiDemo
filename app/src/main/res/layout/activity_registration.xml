@@ -114,7 +114,7 @@
         android:layout_width="match_parent"
         android:layout_height="170dp"
         android:orientation="vertical"
-        android:background="@drawable/header">
+        android:background="@color/roz">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -123,7 +123,7 @@
             android:textStyle="bold"
             android:textSize="45dp"
             android:fontFamily="monospace"
-            android:textColor="@color/white"/>
+            android:textColor="@color/griDeschis"/>
     </LinearLayout>
 
     <LinearLayout
@@ -139,14 +139,14 @@
             android:id="@+id/username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColorHint="@color/white"
+            android:textColorHint="@color/visiniuDeschis"
             app:counterEnabled="true"
             app:errorEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/purple_900"
+                android:background="@color/crem"
                 android:hint="Username"
                 android:inputType="text" />
 
@@ -156,14 +156,15 @@
             android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColorHint="@color/white"
+            android:textColorHint="@color/visiniuDeschis"
             app:errorEnabled="true"
-            app:passwordToggleEnabled="true">
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/visiniuDeschis">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/purple_900"
+                android:background="@color/crem"
                 android:hint="Password"
                 android:inputType="textPassword" />
 
@@ -173,20 +174,22 @@
             android:id="@+id/confirm_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColorHint="@color/white"
+            android:textColorHint="@color/visiniuDeschis"
             app:errorEnabled="true"
-            app:passwordToggleEnabled="true">
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/visiniuDeschis">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/purple_900"
+                android:background="@color/crem"
                 android:hint="Confirm Password"
                 android:inputType="textPassword" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <LinearLayout
+            android:layout_marginTop="150dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -198,9 +201,9 @@
                 android:layout_marginTop="30dp"
                 android:layout_marginRight="5dp"
                 android:layout_weight="1"
-                android:background="@color/purple_200"
+                android:backgroundTint="@color/roz"
                 android:text="Register"
-                android:textColor="@color/white" />
+                android:textColor="@color/crem" />
 
             <Button
                 android:id="@+id/registerButtonBack"
@@ -209,9 +212,9 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="30dp"
                 android:layout_weight="1"
-                android:background="@color/purple_200"
+                android:backgroundTint="@color/roz"
                 android:text="Back"
-                android:textColor="@color/white" />
+                android:textColor="@color/crem" />
 
         </LinearLayout>
     </LinearLayout>
