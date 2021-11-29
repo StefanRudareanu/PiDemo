@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.viewpager2.widget.ViewPager2;
 
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
 import com.example.gittry.FragmentsForMainAplicationPage.FragmentAdapter;
@@ -22,7 +23,7 @@ public class MainAplicationPage extends AppCompatActivity {
         FragmentManager fm=getSupportFragmentManager();
         adapter=new FragmentAdapter(fm,getLifecycle());
         pager2.setAdapter(adapter);
-        tablelayout.addTab(tablelayout.newTab().setText("Home"));
+        tablelayout.addTab(tablelayout.newTab().setIcon(R.drawable.ic_launcher_foreground));
         tablelayout.addTab(tablelayout.newTab().setText("Task"));
         tablelayout.addTab(tablelayout.newTab().setText("Progress"));
 
