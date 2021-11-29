@@ -11,12 +11,16 @@
         android:theme="@style/Theme.GitTry">
         <activity
             android:theme="@style/Theme.MaterialComponents.NoActionBar"
-            android:name=".Registration"
+            android:name=".MainAplicationPage"
             android:exported="false" />
         <activity
-            android:theme="@style/Theme.MaterialComponents.NoActionBar"
+            android:name=".Registration"
+            android:exported="false"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
+        <activity
             android:name=".HomePage"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
