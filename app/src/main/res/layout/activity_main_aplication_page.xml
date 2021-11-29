@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     android:id="@+id/rl">
     <com.google.android.material.tabs.TabLayout
+        app:tabIndicatorColor="@color/cremInchis"
+        app:tabIconTint="@color/rozDeschis"
         android:id="@+id/tab_layout"
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
