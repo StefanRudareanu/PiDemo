@@ -4,18 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+   
     <com.google.android.material.tabs.TabLayout
-        android:id="@+id/Table"
+        android:backgroundTint="@color/roz"
+        app:tabTextColor="@color/crem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/roz"
-        >
-
-    </com.google.android.material.tabs.TabLayout>
+        android:id="@+id/tab_layout"> </com.google.android.material.tabs.TabLayout>
     <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/ViepagerAM"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:id="@+id/pager2"
+        android:layout_alignBottom="@+id/tab_layout">
 
     </androidx.viewpager2.widget.ViewPager2>
+
 </RelativeLayout>
