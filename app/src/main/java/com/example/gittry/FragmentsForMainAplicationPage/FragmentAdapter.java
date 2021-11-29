@@ -22,12 +22,14 @@ public class FragmentAdapter extends FragmentStateAdapter {
                 return  new Task();
             case 2:
                 return  new Progress();
+            case 3:
+                return  new Profile();
         }
         return  new Home();
     }
 
     @Override
     public int getItemCount() {
-        return 3;
+        return 4;
     }
 }
