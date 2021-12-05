@@ -1,10 +1,12 @@
 package com.example.ActivePlus;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.FragmentManager;
 import androidx.viewpager2.widget.ViewPager2;
 
 import android.os.Bundle;
+import android.view.View;
 
 import com.example.ActivePlus.FragmentsForMainAplicationPage.FragmentAdapter;
 import com.google.android.material.tabs.TabLayout;
@@ -13,7 +15,8 @@ public class MainAplicationPage extends AppCompatActivity {
     TabLayout tablelayout;
     ViewPager2 pager2;
     FragmentAdapter adapter;
-
+    CardView card3;
+    int rewind=0;
 
 
     @Override
@@ -22,6 +25,7 @@ public class MainAplicationPage extends AppCompatActivity {
 
         setContentView(R.layout.activity_main_aplication_page);
         pager2=findViewById(R.id.pager2);
+        card3=findViewById(R.id.card3);
         tablelayout=findViewById(R.id.tab_layout);
         FragmentManager fm=getSupportFragmentManager();
         adapter=new FragmentAdapter(fm,getLifecycle());
@@ -30,13 +34,19 @@ public class MainAplicationPage extends AppCompatActivity {
         tablelayout.addTab(tablelayout.newTab().setIcon(R.drawable.ic_baseline_book_24));
         tablelayout.addTab(tablelayout.newTab().setIcon(R.drawable.ic_baseline_equalizer_24));
         tablelayout.addTab(tablelayout.newTab().setIcon(R.drawable.ic_baseline_account_circle_24));
-
+//        card3.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                rewind=1;
+//            }
+//        });
 
         tablelayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 pager2.setCurrentItem(tab.getPosition());
-                if(pager2.getCurrentItem()==2){
+                if(pager2.getCurrentItem()==3&&rewind==1){
+
 
                 }
             }
