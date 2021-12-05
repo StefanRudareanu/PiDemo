@@ -1,4 +1,4 @@
-package com.example.gittry.FragmentsForMainAplicationPage;
+package com.example.ActivePlus.FragmentsForMainAplicationPage;
 
 import android.os.Bundle;
 
@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.gittry.R;
+import com.example.ActivePlus.R;
 
 /**
  * A simple {@link Fragment} subclass.

@@ -1,4 +1,4 @@
-package com.example.gittry;
+package com.example.ActivePlus;
 
 import org.junit.Test;
 

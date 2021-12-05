@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.gittry">
+    package="com.example.ActivePlus">
 
     <application
         android:allowBackup="true"
@@ -11,14 +11,14 @@
         android:theme="@style/Theme.GitTry">
         <activity
             android:theme="@style/Theme.MaterialComponents.NoActionBar"
-            android:name=".MainAplicationPage"
+            android:name="com.example.ActivePlus.MainAplicationPage"
             android:exported="false" />
         <activity
-            android:name=".Registration"
+            android:name="com.example.ActivePlus.Registration"
             android:exported="false"
             android:theme="@style/Theme.MaterialComponents.NoActionBar" />
         <activity
-            android:name=".HomePage"
+            android:name="com.example.ActivePlus.HomePage"
             android:exported="true"
             android:theme="@style/Theme.MaterialComponents.NoActionBar">
             <intent-filter>

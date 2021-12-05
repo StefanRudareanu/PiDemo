@@ -1,4 +1,4 @@
-package com.example.gittry;
+package com.example.ActivePlus;
 
 import androidx.appcompat.app.AppCompatActivity;
 

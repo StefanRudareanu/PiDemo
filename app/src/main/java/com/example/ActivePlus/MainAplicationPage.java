@@ -1,22 +1,21 @@
-package com.example.gittry;
+package com.example.ActivePlus;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.viewpager2.widget.ViewPager2;
 
-import android.app.Fragment;
-import android.graphics.Color;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
-import com.example.gittry.FragmentsForMainAplicationPage.FragmentAdapter;
+import com.example.ActivePlus.FragmentsForMainAplicationPage.FragmentAdapter;
 import com.google.android.material.tabs.TabLayout;
 
 public class MainAplicationPage extends AppCompatActivity {
     TabLayout tablelayout;
     ViewPager2 pager2;
     FragmentAdapter adapter;
-    Fragment fragment;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,6 +36,9 @@ public class MainAplicationPage extends AppCompatActivity {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 pager2.setCurrentItem(tab.getPosition());
+                if(pager2.getCurrentItem()==2){
+
+                }
             }
 
             @Override
@@ -55,5 +57,10 @@ public class MainAplicationPage extends AppCompatActivity {
                 tablelayout.selectTab(tablelayout.getTabAt(position));
             }
         });
+
+
+
+
+
             }
 }

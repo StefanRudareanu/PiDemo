@@ -1,4 +1,4 @@
-package com.example.gittry.FragmentsForMainAplicationPage;
+package com.example.ActivePlus.FragmentsForMainAplicationPage;
 
 import android.os.Bundle;
 
@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.gittry.R;
+import com.example.ActivePlus.R;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -55,12 +55,15 @@ public class Task extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_task, container, false);
+        return inflater.inflate(R.layout.fragemnt_task, container, false);
+
     }
+
 }
